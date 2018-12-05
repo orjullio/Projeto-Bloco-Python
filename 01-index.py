@@ -42,7 +42,7 @@ def mostra_uso_memoria():
 
 
 def mostra_uso_cpu():
-    tela.blit(esp1, (0, altura/3))
+    tela.blit(s1, (0, altura/3))
     capacidade = psutil.cpu_percent(interval=0)
     larg = largura - 2*20
     tela.fill(preto)
